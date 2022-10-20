@@ -8221,10 +8221,10 @@ textarea.form-control {
 
 /* my style */
 .hero-wrap.img1 {
-  background-image: url(images/index1.JPG);
+  background-image: url(images/index1.webp);
 }
 .hero-wrap.img-2 {
-  background-image: url(images/index2.JPG);
+  background-image: url(images/index2.webp);
 }
 .row.d-flex.justify-content-center {
   text-align: center;
