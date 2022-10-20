@@ -22,66 +22,6 @@
     <!-- <link rel="stylesheet"
         href="css/open-iconic-bootstrap.min.css+animate.css+owl.carousel.min.css+owl.theme.default.min.css+magnific-popup.css+aos.css+ionicons.min.css+bootstrap-datepicker.css+jquery.timepicker.css+flaticon.css+icomoon.css+style.css.pagespeed.cc.jRc19QH6Dj.css" /> -->
     <link rel="stylesheet" href="style.css" />
-    <script nonce="858adc65-5433-43b2-80dc-db360069ac37">
-      (function (w, d) {
-        !(function (Z, _, ba, bb) {
-          Z.zarazData = Z.zarazData || {};
-          Z.zarazData.executed = [];
-          Z.zaraz = { deferred: [], listeners: [] };
-          Z.zaraz.q = [];
-          Z.zaraz._f = function (bc) {
-            return function () {
-              var bd = Array.prototype.slice.call(arguments);
-              Z.zaraz.q.push({ m: bc, a: bd });
-            };
-          };
-          for (const be of ["track", "set", "debug"])
-            Z.zaraz[be] = Z.zaraz._f(be);
-          Z.zaraz.init = () => {
-            var bf = _.getElementsByTagName(bb)[0],
-              bg = _.createElement(bb),
-              bh = _.getElementsByTagName("title")[0];
-            bh && (Z.zarazData.t = _.getElementsByTagName("title")[0].text);
-            Z.zarazData.x = Math.random();
-            Z.zarazData.w = Z.screen.width;
-            Z.zarazData.h = Z.screen.height;
-            Z.zarazData.j = Z.innerHeight;
-            Z.zarazData.e = Z.innerWidth;
-            Z.zarazData.l = Z.location.href;
-            Z.zarazData.r = _.referrer;
-            Z.zarazData.k = Z.screen.colorDepth;
-            Z.zarazData.n = _.characterSet;
-            Z.zarazData.o = new Date().getTimezoneOffset();
-            Z.zarazData.q = [];
-            for (; Z.zaraz.q.length; ) {
-              const bl = Z.zaraz.q.shift();
-              Z.zarazData.q.push(bl);
-            }
-            bg.defer = !0;
-            for (const bm of [localStorage, sessionStorage])
-              Object.keys(bm || {})
-                .filter((bo) => bo.startsWith("_zaraz_"))
-                .forEach((bn) => {
-                  try {
-                    Z.zarazData["z_" + bn.slice(7)] = JSON.parse(
-                      bm.getItem(bn)
-                    );
-                  } catch {
-                    Z.zarazData["z_" + bn.slice(7)] = bm.getItem(bn);
-                  }
-                });
-            bg.referrerPolicy = "origin";
-            bg.src =
-              "/cdn-cgi/zaraz/s.js?z=" +
-              btoa(encodeURIComponent(JSON.stringify(Z.zarazData)));
-            bf.parentNode.insertBefore(bg, bf);
-          };
-          ["complete", "interactive"].includes(_.readyState)
-            ? zaraz.init()
-            : Z.addEventListener("DOMContentLoaded", zaraz.init);
-        })(w, d, 0, "script");
-      })(window, document);
-    </script>
   </head>
 
   <body>
@@ -227,31 +167,54 @@
         </div>
         <div class="row block-9">
           <div class="col-lg-6 order-md-last d-flex">
-            <form action="#" class="bg-light p-5 contact-form">
+            <form
+              onSubmit="return validate(event);"
+              class="bg-light p-5 contact-form"
+            >
               <div class="form-group">
+                <label for="name">Name</label>
                 <input
                   type="text"
                   class="form-control"
+                  name="name"
+                  id="name"
+                  maxlength="60"
+                  data-validate
+                  required
                   placeholder="Your Name"
                 />
               </div>
               <div class="form-group">
+                <label for="email">Email</label>
                 <input
-                  type="text"
                   class="form-control"
+                  type="email"
+                  name="email"
+                  id="email"
+                  maxlength="60"
                   placeholder="Your Email"
+                  required
                 />
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject" />
+                <label for="phone">Phone</label>
+                <input
+                  class="form-control"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  maxlength="18"
+                  required
+                />
               </div>
               <div class="form-group">
+                <label for="message">Your message</label>
                 <textarea
-                  name=""
-                  id=""
+                  class="form-control"
                   cols="30"
                   rows="7"
-                  class="form-control"
+                  name="message"
+                  id="message"
                   placeholder="Message"
                 ></textarea>
               </div>
@@ -431,10 +394,7 @@
           <div class="col-md-12 text-center">
             <p>
               Copyright &copy;
-              <script
-                data-cfasync="false"
-                src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
-              ></script>
+              <script data-cfasync="false" src="#"></script>
               <script>
                 document.write(new Date().getFullYear());
               </script>
@@ -505,15 +465,12 @@
     <script>
       eval(mod_pagespeed_luomz1AAqn);
     </script>
-    <script src="js/jquery.timepicker.min.js"></script>
+    <!-- <script src="js/jquery.timepicker.min.js"></script> -->
     <script src="js/scrollax.min.js+google-map.js+main.js.pagespeed.jc.3g3-cEQ1tg.js"></script>
     <script>
       eval(mod_pagespeed_2EXYfoJbmK);
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script>
-      eval(mod_pagespeed_UMYRwGZF2l);
-    </script>
+
     <script>
       eval(mod_pagespeed_t4vJ_Wa_6k);
     </script>
@@ -538,5 +495,12 @@
       data-cf-beacon='{"rayId":"75b98f7948500c01","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.8.1","si":100}'
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.js"
+      integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/formy.min.js"></script>
   </body>
 </html>
