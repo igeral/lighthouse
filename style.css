@@ -8226,3 +8226,6 @@ textarea.form-control {
 .hero-wrap.img-2 {
   background-image: url(images/index2.JPG);
 }
+.row.d-flex.justify-content-center {
+  text-align: center;
+}
