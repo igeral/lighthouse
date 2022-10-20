@@ -1,1 +1,103 @@
-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
+	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
+
+
+
+
+
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+          <div
+            class="hero-wrap js-fullheight img1 slide slide1 carousel-item active"
+            style=""
+            data-stellar-background-ratio="0.5"
+          >
+            <div class="overlay"></div>
+            <div class="container">
+              <div
+                class="row no-gutters slider-text js-fullheight align-items-center justify-content-center"
+                data-scrollax-parent="true"
+              >
+                <div
+                  class="col-md-10 text-center ftco-animate"
+                  data-scrollax=" properties: { translateY: '70%' }"
+                >
+                  <h1 class="mb-0">Welcome to Lighthouse</h1>
+                  <h3 class="subheading mb-4 pb-1">
+                    Submit your presence to the creator of the universe
+                  </h3>
+                  <p>
+                    <a href="#" class="btn btn-white py-3 px-4"
+                      ><span class="icon-play-circle"></span> Live Stream</a
+                    >
+                  </p>
+                  <div class="mouse">
+                    <a href="#" class="mouse-icon">
+                      <div class="mouse-wheel">
+                        <span class="ion-ios-arrow-down"></span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="hero-wrap js-fullheight img-2 slide slide-2 carousel-item
+            style=""
+            data-stellar-background-ratio="0.5"
+          >
+            <div class="overlay"></div>
+            <div class="container">
+              <div
+                class="row no-gutters slider-text js-fullheight align-items-center justify-content-center"
+                data-scrollax-parent="true"
+              >
+                <div
+                  class="col-md-10 text-center ftco-animate"
+                  data-scrollax=" properties: { translateY: '70%' }"
+                >
+                  <h1 class="mb-0">Welcome to Lighthouse</h1>
+                  <h3 class="subheading mb-4 pb-1">
+                    Submit your presence to the creator of the universe
+                  </h3>
+                  <p>
+                    <a href="#" class="btn btn-white py-3 px-4"
+                      ><span class="icon-play-circle"></span> Live Stream</a
+                    >
+                  </p>
+                  <div class="mouse">
+                    <a href="#" class="mouse-icon">
+                      <div class="mouse-wheel">
+                        <span class="ion-ios-arrow-down"></span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
