@@ -5404,6 +5404,7 @@ fieldset:disabled a.btn {
 .navbar-toggler:hover,
 .navbar-toggler:focus {
   text-decoration: none;
+  box-shadow: none !important;
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
@@ -6743,10 +6744,10 @@ h5,
 }
 
 .slider-text h1 {
-  font-size: 60px;
+  font-size: 70px;
   color: #fff;
   line-height: 2;
-  font-weight: 500;
+  font-weight: 700;
   position: relative;
 }
 
@@ -6762,7 +6763,7 @@ h5,
 
 .slider-text .subheading {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 25px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.8);
   letter-spacing: 1px;
