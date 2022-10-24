@@ -1,89 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Lighthouse|Blog</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i"
-      rel="stylesheet"
-    />
-    <!-- <link rel="stylesheet"
-        href="css/A.open-iconic-bootstrap.min.css+animate.css+owl.carousel.min.css+owl.theme.default.min.css+magnific-popup.css+aos.css+ionicons.min.css+bootstrap-datepicker.css+jquery.timepicker.css+flaticon.css+icomoon.css+style.css,Mcc.jRc19QH6Dj.css.pagespeed.cf.se1cWjbHFA.css" /> -->
-    <link rel="stylesheet" href="style.css" />
-    <script nonce="b0359274-e2dd-4132-8699-78996643b467">
-      (function (w, d) {
-        !(function (Z, _, ba, bb) {
-          Z.zarazData = Z.zarazData || {};
-          Z.zarazData.executed = [];
-          Z.zaraz = { deferred: [], listeners: [] };
-          Z.zaraz.q = [];
-          Z.zaraz._f = function (bc) {
-            return function () {
-              var bd = Array.prototype.slice.call(arguments);
-              Z.zaraz.q.push({ m: bc, a: bd });
-            };
-          };
-          for (const be of ["track", "set", "debug"])
-            Z.zaraz[be] = Z.zaraz._f(be);
-          Z.zaraz.init = () => {
-            var bf = _.getElementsByTagName(bb)[0],
-              bg = _.createElement(bb),
-              bh = _.getElementsByTagName("title")[0];
-            bh && (Z.zarazData.t = _.getElementsByTagName("title")[0].text);
-            Z.zarazData.x = Math.random();
-            Z.zarazData.w = Z.screen.width;
-            Z.zarazData.h = Z.screen.height;
-            Z.zarazData.j = Z.innerHeight;
-            Z.zarazData.e = Z.innerWidth;
-            Z.zarazData.l = Z.location.href;
-            Z.zarazData.r = _.referrer;
-            Z.zarazData.k = Z.screen.colorDepth;
-            Z.zarazData.n = _.characterSet;
-            Z.zarazData.o = new Date().getTimezoneOffset();
-            Z.zarazData.q = [];
-            for (; Z.zaraz.q.length; ) {
-              const bl = Z.zaraz.q.shift();
-              Z.zarazData.q.push(bl);
-            }
-            bg.defer = !0;
-            for (const bm of [localStorage, sessionStorage])
-              Object.keys(bm || {})
-                .filter((bo) => bo.startsWith("_zaraz_"))
-                .forEach((bn) => {
-                  try {
-                    Z.zarazData["z_" + bn.slice(7)] = JSON.parse(
-                      bm.getItem(bn)
-                    );
-                  } catch {
-                    Z.zarazData["z_" + bn.slice(7)] = bm.getItem(bn);
-                  }
-                });
-            bg.referrerPolicy = "origin";
-            bg.src =
-              "/cdn-cgi/zaraz/s.js?z=" +
-              btoa(encodeURIComponent(JSON.stringify(Z.zarazData)));
-            bf.parentNode.insertBefore(bg, bf);
-          };
-          ["complete", "interactive"].includes(_.readyState)
-            ? zaraz.init()
-            : Z.addEventListener("DOMContentLoaded", zaraz.init);
-        })(w, d, 0, "script");
-      })(window, document);
-    </script>
-  </head>
 
+<head>
+  <title>Lighthouse|Blog</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet" />
+  <!-- <link rel="stylesheet"
+        href="css/A.open-iconic-bootstrap.min.css+animate.css+owl.carousel.min.css+owl.theme.default.min.css+magnific-popup.css+aos.css+ionicons.min.css+bootstrap-datepicker.css+jquery.timepicker.css+flaticon.css+icomoon.css+style.css,Mcc.jRc19QH6Dj.css.pagespeed.cf.se1cWjbHFA.css" /> -->
+  <link rel="stylesheet" href="style.css" />
+  <script nonce="b0359274-e2dd-4132-8699-78996643b467">
+    (function (w, d) {
+      !(function (Z, _, ba, bb) {
+        Z.zarazData = Z.zarazData || {};
+        Z.zarazData.executed = [];
+        Z.zaraz = { deferred: [], listeners: [] };
+        Z.zaraz.q = [];
+        Z.zaraz._f = function (bc) {
+          return function () {
+            var bd = Array.prototype.slice.call(arguments);
+            Z.zaraz.q.push({ m: bc, a: bd });
+          };
+        };
+        for (const be of ["track", "set", "debug"])
+          Z.zaraz[be] = Z.zaraz._f(be);
+        Z.zaraz.init = () => {
+          var bf = _.getElementsByTagName(bb)[0],
+            bg = _.createElement(bb),
+            bh = _.getElementsByTagName("title")[0];
+          bh && (Z.zarazData.t = _.getElementsByTagName("title")[0].text);
+          Z.zarazData.x = Math.random();
+          Z.zarazData.w = Z.screen.width;
+          Z.zarazData.h = Z.screen.height;
+          Z.zarazData.j = Z.innerHeight;
+          Z.zarazData.e = Z.innerWidth;
+          Z.zarazData.l = Z.location.href;
+          Z.zarazData.r = _.referrer;
+          Z.zarazData.k = Z.screen.colorDepth;
+          Z.zarazData.n = _.characterSet;
+          Z.zarazData.o = new Date().getTimezoneOffset();
+          Z.zarazData.q = [];
+          for (; Z.zaraz.q.length;) {
+            const bl = Z.zaraz.q.shift();
+            Z.zarazData.q.push(bl);
+          }
+          bg.defer = !0;
+          for (const bm of [localStorage, sessionStorage])
+            Object.keys(bm || {})
+              .filter((bo) => bo.startsWith("_zaraz_"))
+              .forEach((bn) => {
+                try {
+                  Z.zarazData["z_" + bn.slice(7)] = JSON.parse(
+                    bm.getItem(bn)
+                  );
+                } catch {
+                  Z.zarazData["z_" + bn.slice(7)] = bm.getItem(bn);
+                }
+              });
+          bg.referrerPolicy = "origin";
+          bg.src =
+            "/cdn-cgi/zaraz/s.js?z=" +
+            btoa(encodeURIComponent(JSON.stringify(Z.zarazData)));
+          bf.parentNode.insertBefore(bg, bf);
+        };
+        ["complete", "interactive"].includes(_.readyState)
+          ? zaraz.init()
+          : Z.addEventListener("DOMContentLoaded", zaraz.init);
+      })(w, d, 0, "script");
+    })(window, document);
+  </script>
+</head>
+
+<<<<<<< HEAD
   <body>
     <nav
       class="navbar navbar-dark ftco_navbar bg-dark ftco-navbar-light"
@@ -143,63 +133,92 @@
             </li>
           </ul>
         </div>
+=======
+<body>
+  <nav class="navbar navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container d-flex align-items-stretch">
+      <div class="col-3 d-flex align-items-center">
+        <a class="navbar-brand" href="index.html">Light<span>House</span></a>
+>>>>>>> e0efeb8826d569a5996ae0bbfeec8341152775a4
       </div>
-    </nav>
+      <div class="col-9 d-flex align-items-center text-right">
+        <ul class="ftco-social mt-2 mr-3">
+          <li class="ftco-animate">
+            <a href="#"><span class="icon-twitter"></span></a>
+          </li>
+          <li class="ftco-animate">
+            <a href="#"><span class="icon-facebook"></span></a>
+          </li>
+          <li class="ftco-animate">
+            <a href="#"><span class="icon-instagram"></span></a>
+          </li>
+          <li class="ftco-animate">
+            <a href="#"><span class="icon-youtube"></span></a>
+          </li>
+        </ul>
+        <button class="navbar-toggler d-flex align-items-center" type="button" data-toggle="collapse"
+          data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="pt-1 mr-1">Menu</span> <span class="oi oi-menu"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="donation.html" class="nav-link">Donation</a>
+          </li>
+          <li class="nav-item">
+            <a href="sermons.html" class="nav-link">Sermons</a>
+          </li>
 
-    <section
-      class="hero-wrap hero-wrap-2"
-      style="
+          <li class="nav-item active">
+            <a href="news.html" class="nav-link">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-wrap hero-wrap-2" style="
         background-image: url(images/xbg_2.jpg.pagespeed.ic.L-dfI-79mI.webp);
-      "
-      data-stellar-background-ratio="0.5"
-    >
-      <div class="overlay"></div>
-      <div class="container">
-        <div
-          class="row no-gutters slider-text align-items-end justify-content-center"
-        >
-          <div class="col-md-9 ftco-animate pb-5 text-center">
-            <h1 class="mb-2 bread">Our Blog</h1>
-            <p class="breadcrumbs">
-              <span class="mr-2"
-                ><a href="index.html"
-                  >Home <i class="ion-ios-arrow-forward"></i></a
-              ></span>
-              <span>Blog <i class="ion-ios-arrow-forward"></i></span>
-            </p>
-          </div>
+      " data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row no-gutters slider-text align-items-end justify-content-center">
+        <div class="col-md-9 ftco-animate pb-5 text-center">
+          <h1 class="mb-2 bread">Our Blog</h1>
+          <p class="breadcrumbs">
+            <span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span>
+            <span>Blog <i class="ion-ios-arrow-forward"></i></span>
+          </p>
         </div>
       </div>
-    </section>
-    <section class="ftco-section bg-light">
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col-lg-4 d-flex ftco-animate">
-            <div class="blog-entry justify-content-end">
-              <a
-                href="blog-single.html"
-                class="block-20"
-                style="
+    </div>
+  </section>
+  <section class="ftco-section bg-light">
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-lg-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <a href="blog-single.html" class="block-20" style="
                   background-image: url(images/ximage_1.jpg.pagespeed.ic.ZmuMU14cXJ.webp);
-                "
-              >
-              </a>
-              <div class="text d-flex float-right d-block">
-                <div class="topper text-center pt-4 px-3">
-                  <span class="day">18</span>
-                  <span class="mos">January</span>
-                  <span class="yr">2019</span>
-                </div>
-                <div class="desc p-4">
-                  <h3 class="heading mt-2">
-                    <a href="#">All you want to know about Bible</a>
-                  </h3>
-                  <p>
-                    A small river named Duden flows by their place and supplies
-                    it with the necessary regelialia.
-                  </p>
-                </div>
+                ">
+            </a>
+            <div class="text d-flex float-right d-block">
+              <div class="topper text-center pt-4 px-3">
+                <span class="day">18</span>
+                <span class="mos">January</span>
+                <span class="yr">2019</span>
               </div>
+<<<<<<< HEAD
             </div>
           </div>
           <div class="col-lg-4 d-flex ftco-animate">
@@ -493,118 +512,354 @@
                     >Saturday Prayer Meeting &mdash; 10:00 am to 11:30 am</span
                   >
                   <span>Sunday Service &mdash; 8:30 am to 11:30 am</span>
+=======
+              <div class="desc p-4">
+                <h3 class="heading mt-2">
+                  <a href="#">All you want to know about Bible</a>
+                </h3>
+                <p>
+                  A small river named Duden flows by their place and supplies
+                  it with the necessary regelialia.
+>>>>>>> e0efeb8826d569a5996ae0bbfeec8341152775a4
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <p>
-              Copyright &copy;
-              <script>
-                document.write(new Date().getFullYear());
-              </script>
-              All rights reserved | website by iGerald | This template is made
-              with
-              <i class="icon-heart color-danger" aria-hidden="true"></i> by
-              <a href="https://colorlib.com" target="_blank">Colorlib</a>
-            </p>
+        <div class="col-lg-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <a href="blog-single.html" class="block-20" style="
+                  background-image: url(images/ximage_2.jpg.pagespeed.ic.7S03bmwKyX.webp);
+                ">
+            </a>
+            <div class="text d-flex float-right d-block">
+              <div class="topper text-center pt-4 px-3">
+                <span class="day">15</span>
+                <span class="mos">January</span>
+                <span class="yr">2019</span>
+              </div>
+              <div class="desc p-4">
+                <h3 class="heading mt-2">
+                  <a href="#">All you want to know about Bible</a>
+                </h3>
+                <p>
+                  A small river named Duden flows by their place and supplies
+                  it with the necessary regelialia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex ftco-animate">
+          <div class="blog-entry">
+            <a href="blog-single.html" class="block-20" style="
+                  background-image: url(images/ximage_3.jpg.pagespeed.ic.RDsZ40Em0t.webp);
+                ">
+            </a>
+            <div class="text d-flex float-right d-block">
+              <div class="topper text-center pt-4 px-3">
+                <span class="day">14</span>
+                <span class="mos">January</span>
+                <span class="yr">2019</span>
+              </div>
+              <div class="desc p-4">
+                <h3 class="heading mt-2">
+                  <a href="#">All you want to know about Bible</a>
+                </h3>
+                <p>
+                  A small river named Duden flows by their place and supplies
+                  it with the necessary regelialia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_4.jpg')">
+            </a>
+            <div class="text d-flex float-right d-block">
+              <div class="topper text-center pt-4 px-3">
+                <span class="day">18</span>
+                <span class="mos">January</span>
+                <span class="yr">2019</span>
+              </div>
+              <div class="desc p-4">
+                <h3 class="heading mt-2">
+                  <a href="#">All you want to know about Bible</a>
+                </h3>
+                <p>
+                  A small river named Duden flows by their place and supplies
+                  it with the necessary regelialia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex ftco-animate">
+          <div class="blog-entry justify-content-end">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_5.jpg')">
+            </a>
+            <div class="text d-flex float-right d-block">
+              <div class="topper text-center pt-4 px-3">
+                <span class="day">15</span>
+                <span class="mos">January</span>
+                <span class="yr">2019</span>
+              </div>
+              <div class="desc p-4">
+                <h3 class="heading mt-2">
+                  <a href="#">All you want to know about Bible</a>
+                </h3>
+                <p>
+                  A small river named Duden flows by their place and supplies
+                  it with the necessary regelialia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex ftco-animate">
+          <div class="blog-entry">
+            <a href="blog-single.html" class="block-20" style="background-image: url('images/image_6.jpg')">
+            </a>
+            <div class="text d-flex float-right d-block">
+              <div class="topper text-center pt-4 px-3">
+                <span class="day">14</span>
+                <span class="mos">January</span>
+                <span class="yr">2019</span>
+              </div>
+              <div class="desc p-4">
+                <h3 class="heading mt-2">
+                  <a href="#">All you want to know about Bible</a>
+                </h3>
+                <p>
+                  A small river named Duden flows by their place and supplies
+                  it with the necessary regelialia.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
-
-    <div id="ftco-loader" class="show fullscreen">
-      <svg class="circular" width="48px" height="48px">
-        <circle
-          class="path-bg"
-          cx="24"
-          cy="24"
-          r="22"
-          fill="none"
-          stroke-width="4"
-          stroke="#eeeeee"
-        />
-        <circle
-          class="path"
-          cx="24"
-          cy="24"
-          r="22"
-          fill="none"
-          stroke-width="4"
-          stroke-miterlimit="10"
-          stroke="#F96D00"
-        />
-      </svg>
+      <div class="row mt-5">
+        <div class="col text-center">
+          <div class="block-27">
+            <ul>
+              <li><a href="#">&lt;</a></li>
+              <li class="active"><span>1</span></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">&gt;</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js+popper.min.js+bootstrap.min.js.pagespeed.jc.QU1_t2E0vi.js"></script>
-    <script>
-      eval(mod_pagespeed_mDSFSMeSLe);
-    </script>
-    <script>
-      eval(mod_pagespeed_O3UK2CaskB);
-    </script>
-    <script>
-      eval(mod_pagespeed_8RqPGaikvq);
-    </script>
-    <script src="js/jquery.easing.1.3.js+jquery.waypoints.min.js+jquery.stellar.min.js+owl.carousel.min.js.pagespeed.jc.CpzGD7CF2g.js"></script>
-    <script>
-      eval(mod_pagespeed_tspitda5Fo);
-    </script>
-    <script>
-      eval(mod_pagespeed_deByF19_6T);
-    </script>
-    <script>
-      eval(mod_pagespeed_xaXzduyZfP);
-    </script>
-    <script>
-      eval(mod_pagespeed_JeKRX9ZXGj);
-    </script>
-    <script src="js/jquery.magnific-popup.min.js+aos.js+jquery.animateNumber.min.js+bootstrap-datepicker.js.pagespeed.jc.DomVKFSRnj.js"></script>
-    <script>
-      eval(mod_pagespeed_FJOoXohfdq);
-    </script>
-    <script>
-      eval(mod_pagespeed_KXv34Uc5iL);
-    </script>
-    <script>
-      eval(mod_pagespeed_1rMGBR3c1o);
-    </script>
-    <script>
-      eval(mod_pagespeed_luomz1AAqn);
-    </script>
-    <!-- <script src="js/jquery.timepicker.min.js"></script> -->
+  </section>
+  <section class="ftco-section ftco-section-parallax bg-secondary ftco-no-pb">
+    <div class="parallax-img d-flex align-items-center">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-7 text-center heading-section heading-section-white heading-section-no-line ftco-animate">
+            <h2>Newsletter</h2>
+            <p>
+              Suscribe to our newsletter for regular words of encouragement in
+              faith
+            </p>
+            <div class="row d-flex justify-content-center mt-4 mb-4">
+              <div class="col-md-8">
+                <form action="#" class="subscribe-form">
+                  <div class="form-group d-flex">
+                    <input type="text" class="form-control" placeholder="Enter email address" />
+                    <input type="submit" value="Subscribe" class="submit px-3" />
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Light House</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts.
+            </p>
+            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+              <li class="ftco-animate">
+                <a href="#"><span class="icon-twitter"></span></a>
+              </li>
+              <li class="ftco-animate">
+                <a href="#"><span class="icon-facebook"></span></a>
+              </li>
+              <li class="ftco-animate">
+                <a href="#"><span class="icon-instagram"></span></a>
+              </li>
+              <li class="ftco-animate">
+                <a href="#"><span class="icon-youtube"></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-5">
+            <h2 class="ftco-heading-2">About</h2>
+            <ul class="list-unstyled">
+              <li>
+                <a href="staff.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Staff</a>
+              </li>
+              <li>
+                <a href="beliefs.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Beliefs</a>
+              </li>
+              <li>
+                <a href="history.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>History</a>
+              </li>
+              <li>
+                <a href="mission.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Mission</a>
+              </li>
+              <li>
+                <a href="wedding.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Wedding
+                  &amp; Funerals</a>
+              </li>
 
-    <script src="js/scrollax.min.js+google-map.js+main.js.pagespeed.jc.3g3-cEQ1tg.js"></script>
-    <script>
-      eval(mod_pagespeed_2EXYfoJbmK);
-    </script>
+              <li>
+                <a href="fellowships.html" class="py-1 d-block"><span
+                    class="ion-ios-arrow-forward mr-3"></span>Fellowships</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4 ml-md-5">
+            <h2 class="ftco-heading-2">Connect</h2>
+            <ul class="list-unstyled">
 
-    <script>
-      eval(mod_pagespeed_t4vJ_Wa_6k);
-    </script>
 
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+              <li>
+                <a href="children.html" class="py-1 d-block"><span class="ion-ios-arrow-forward mr-3"></span>Children
+                  &amp; Students</a>
+              </li>
 
-      gtag("config", "UA-23581568-13");
-    </script>
-    <script
-      defer
-      src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
-      integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
-      data-cf-beacon='{"rayId":"75b98d6f2e3db74f","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.8.1","si":100}'
-      crossorigin="anonymous"
-    ></script>
-  </body>
+              <li>
+                <a href="counselling.html" class="py-1 d-block"><span
+                    class="ion-ios-arrow-forward mr-3"></span>Counseling</a>
+              </li>
+              <li>
+                <a href="assistance.html" class="py-1 d-block"><span
+                    class="ion-ios-arrow-forward mr-3"></span>Assistance</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="ftco-footer-widget mb-4">
+            <h2 class="ftco-heading-2">Service Hours</h2>
+            <div class="opening-hours">
+              <h4>Services Hours</h4>
+              <p class="pl-3">
+                <span class="mb-3">Saturday Prayer Meeting &mdash; 10:00 am to 11:30 am</span>
+                <span>Sunday Service &mdash; 8:30 am to 11:30 am</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved | website by iGerald | This template is made
+            with
+            <i class="icon-heart color-danger" aria-hidden="true"></i> by
+            <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" />
+    </svg>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js+popper.min.js+bootstrap.min.js.pagespeed.jc.QU1_t2E0vi.js"></script>
+  <script>
+    eval(mod_pagespeed_mDSFSMeSLe);
+  </script>
+  <script>
+    eval(mod_pagespeed_O3UK2CaskB);
+  </script>
+  <script>
+    eval(mod_pagespeed_8RqPGaikvq);
+  </script>
+  <script
+    src="js/jquery.easing.1.3.js+jquery.waypoints.min.js+jquery.stellar.min.js+owl.carousel.min.js.pagespeed.jc.CpzGD7CF2g.js"></script>
+  <script>
+    eval(mod_pagespeed_tspitda5Fo);
+  </script>
+  <script>
+    eval(mod_pagespeed_deByF19_6T);
+  </script>
+  <script>
+    eval(mod_pagespeed_xaXzduyZfP);
+  </script>
+  <script>
+    eval(mod_pagespeed_JeKRX9ZXGj);
+  </script>
+  <script
+    src="js/jquery.magnific-popup.min.js+aos.js+jquery.animateNumber.min.js+bootstrap-datepicker.js.pagespeed.jc.DomVKFSRnj.js"></script>
+  <script>
+    eval(mod_pagespeed_FJOoXohfdq);
+  </script>
+  <script>
+    eval(mod_pagespeed_KXv34Uc5iL);
+  </script>
+  <script>
+    eval(mod_pagespeed_1rMGBR3c1o);
+  </script>
+  <script>
+    eval(mod_pagespeed_luomz1AAqn);
+  </script>
+  <!-- <script src="js/jquery.timepicker.min.js"></script> -->
+
+  <script src="js/scrollax.min.js+google-map.js+main.js.pagespeed.jc.3g3-cEQ1tg.js"></script>
+  <script>
+    eval(mod_pagespeed_2EXYfoJbmK);
+  </script>
+
+  <script>
+    eval(mod_pagespeed_t4vJ_Wa_6k);
+  </script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-23581568-13");
+  </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
+    integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
+    data-cf-beacon='{"rayId":"75b98d6f2e3db74f","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.8.1","si":100}'
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
