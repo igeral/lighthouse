@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Lighthouse|Fellowships</title>
+    <title>Lighthouse|Memberships</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -19,72 +19,11 @@
       href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i"
       rel="stylesheet"
     />
-    <!-- <link
-      rel="stylesheet"
-      href="css/open-iconic-bootstrap.min.css+animate.css+owl.carousel.min.css+owl.theme.default.min.css+magnific-popup.css+aos.css+ionicons.min.css+bootstrap-datepicker.css+jquery.timepicker.css+flaticon.css+icomoon.css+style.css.pagespeed.cc.jRc19QH6Dj.css"
-    /> -->
+    <!-- <link rel="stylesheet"
+        href="css/open-iconic-bootstrap.min.css+animate.css+owl.carousel.min.css+owl.theme.default.min.css+magnific-popup.css+aos.css+ionicons.min.css+bootstrap-datepicker.css+jquery.timepicker.css+flaticon.css+icomoon.css+style.css.pagespeed.cc.jRc19QH6Dj.css" /> -->
     <link rel="stylesheet" href="style.css" />
-    <script nonce="ed2eca3f-6be0-42e7-bb76-a459a8aabed6">
-      (function (w, d) {
-        !(function (Z, _, ba, bb) {
-          Z.zarazData = Z.zarazData || {};
-          Z.zarazData.executed = [];
-          Z.zaraz = { deferred: [], listeners: [] };
-          Z.zaraz.q = [];
-          Z.zaraz._f = function (bc) {
-            return function () {
-              var bd = Array.prototype.slice.call(arguments);
-              Z.zaraz.q.push({ m: bc, a: bd });
-            };
-          };
-          for (const be of ["track", "set", "debug"])
-            Z.zaraz[be] = Z.zaraz._f(be);
-          Z.zaraz.init = () => {
-            var bf = _.getElementsByTagName(bb)[0],
-              bg = _.createElement(bb),
-              bh = _.getElementsByTagName("title")[0];
-            bh && (Z.zarazData.t = _.getElementsByTagName("title")[0].text);
-            Z.zarazData.x = Math.random();
-            Z.zarazData.w = Z.screen.width;
-            Z.zarazData.h = Z.screen.height;
-            Z.zarazData.j = Z.innerHeight;
-            Z.zarazData.e = Z.innerWidth;
-            Z.zarazData.l = Z.location.href;
-            Z.zarazData.r = _.referrer;
-            Z.zarazData.k = Z.screen.colorDepth;
-            Z.zarazData.n = _.characterSet;
-            Z.zarazData.o = new Date().getTimezoneOffset();
-            Z.zarazData.q = [];
-            for (; Z.zaraz.q.length; ) {
-              const bl = Z.zaraz.q.shift();
-              Z.zarazData.q.push(bl);
-            }
-            bg.defer = !0;
-            for (const bm of [localStorage, sessionStorage])
-              Object.keys(bm || {})
-                .filter((bo) => bo.startsWith("_zaraz_"))
-                .forEach((bn) => {
-                  try {
-                    Z.zarazData["z_" + bn.slice(7)] = JSON.parse(
-                      bm.getItem(bn)
-                    );
-                  } catch {
-                    Z.zarazData["z_" + bn.slice(7)] = bm.getItem(bn);
-                  }
-                });
-            bg.referrerPolicy = "origin";
-            bg.src =
-              "/cdn-cgi/zaraz/s.js?z=" +
-              btoa(encodeURIComponent(JSON.stringify(Z.zarazData)));
-            bf.parentNode.insertBefore(bg, bf);
-          };
-          ["complete", "interactive"].includes(_.readyState)
-            ? zaraz.init()
-            : Z.addEventListener("DOMContentLoaded", zaraz.init);
-        })(w, d, 0, "script");
-      })(window, document);
-    </script>
   </head>
+
   <body>
     <nav
       class="navbar navbar-dark ftco_navbar bg-dark ftco-navbar-light"
@@ -129,16 +68,19 @@
             <li class="nav-item">
               <a href="about.html" class="nav-link">About</a>
             </li>
-            <li class="nav-item active">
-              <a href="donation.html" class="nav-link">Donation</a>
+            <li class="nav-item">
+              <a href="donation.html" class="nav-link">Ministries</a>
             </li>
             <li class="nav-item">
               <a href="sermons.html" class="nav-link">Sermons</a>
             </li>
             <li class="nav-item">
-              <a href="news.html" class="nav-link">News</a>
+              <a href="events.html" class="nav-link">Upcoming Events</a>
             </li>
             <li class="nav-item">
+              <a href="news.html" class="nav-link">Blog</a>
+            </li>
+            <li class="nav-item active">
               <a href="contact.html" class="nav-link">Contact</a>
             </li>
           </ul>
@@ -159,96 +101,166 @@
           class="row no-gutters slider-text align-items-end justify-content-center"
         >
           <div class="col-md-9 ftco-animate pb-5 text-center">
-            <h1 class="mb-2 bread">Fellowships</h1>
+            <h1 class="mb-2 bread">Contact Us</h1>
             <p class="breadcrumbs">
               <span class="mr-2"
                 ><a href="index.html"
                   >Home <i class="ion-ios-arrow-forward"></i></a
               ></span>
-              <span>Fellowships<i class="ion-ios-arrow-forward"></i></span>
+              <span>Contact <i class="ion-ios-arrow-forward"></i></span>
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section class="ftco-section">
+    <section class="ftco-daily-verse bg-light">
       <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <ul class="ministry-list">
-              <li class="active"><a href="#">Fellowships</a></li>
-              <!-- <li><a href="#">Community Outreach</a></li> -->
-              <!-- <li><a href="#">Missions</a></li> -->
-            </ul>
+        <div class="row justify-content-center">
+          <div class="col-md-10 daily-verse text-center p-5">
+            <span class="flaticon-bible"></span>
+            <h3 class="ftco-animate">
+              "16 For God so loved the world, that he gave his only begotten
+              Son, that whosoever believeth in him should not perish, but have
+              everlasting life."
+            </h3>
+            <h4 class="h5 mt-4 font-weight-bold ftco-animate">
+              &mdash; John 3:16 KJV
+            </h4>
           </div>
-          <div class="col-md-9">
-            <h3 class="mb-4">CHANGING MEETINGS</h3>
-            <ul class="ministry-list my-5">
-              <li>
-                <span class="ion-ios-arrow-forward mr-2"></span>MONDAY 8:00-9:20
-                pm: Financial problems, debts, unemployment, lack, etc, to be
-                prayed over. Learning how to be prosperous.
-              </li>
-              <li>
-                <span class="ion-ios-arrow-forward mr-2"></span>WEDNESDAY
-                8:00-9:20 pm: Revival meeting; come and be refreshed in word and
-                spirit, prayer for family and marriage bring the photographs,
-                or. clothes.
-              </li>
-              <li>
-                <span class="ion-ios-arrow-forward mr-2"></span>FRIDAY
-                00:00-2:00 am: Spiritual Relase; strong prayer to destroy
-                witchcraft curses, demon-possesion, nightmares, envy, bad luck.
-                All spiritual problems.
-              </li>
-              <li>
-                <span class="ion-ios-arrow-forward mr-2"></span>SUNDAY MORNING
-                SERVICE 11:00 - 12:30 am
-              </li>
-              <li>
-                <span class="ion-ios-arrow-forward mr-2"></span>EVERY EVENING
-                prayer 8:00-9:00 pm monday-friday
-              </li>
-              <li>
-                <span class="ion-ios-arrow-forward mr-2"></span>EVERY FIRST
-                SUNDAY of the month: Victory day, strong prayer to the Holy
-                Spirit, miracles time.
-              </li>
-            </ul>
-            <hr />
-            <h3 class="mb-4">CAMBIAMENTI NEGLI INCONTRI</h3>
-            <ul class="ministry-list my-5">
-              <li>
-                <span class="ion-ios-arrow-forward mr-2"></span>LUNEDI' 20:00 -
-                21:20 problemi finanziari, debiti, disoccupazione, mancanze,
-                ecc, su cui pregate. Come imparare a essere prosperi
-              </li>
-              <li>
-                <span class="ion-ios-arrow-forward mr-2"></span>MERCOLEDI' 20:00
-                - 21:20: Incontro di rinascita; vieni e sarai rinnovato,
-                preghiera per la famiglia e il matrimonio: porta fotografie e
-                vestiti.
-              </li>
-              <li>
-                <span class="ion-ios-arrow-forward mr-2"></span>VENERDI' 24:00 -
-                02:00: Liberazione dello spirito: forte preghiera per
-                distruggere stregoneria, maledizioni, possessioni demoniache,
-                incubi, invidia, sfortuna, tutti i problemi spirituali.
-              </li>
-              <li>
-                <span class="ion-ios-arrow-forward mr-2"></span>OGNI PRIMA
-                DOMENICA del mese: Giorno della vittoria, forte preghiera per lo
-                spirito santo, tempo di miracoli.
-              </li>
-              <li>
-                <span class="ion-ios-arrow-forward mr-2"></span>OGNI DOMENICA
-                culto mattutino 11:00 - 12:30
-              </li>
-              <li>
-                <span class="ion-ios-arrow-forward mr-2"></span>OGNI SERA
-                preghiera 20:00 - 21:00 da lunedì a venerdi
-              </li>
-            </ul>
+        </div>
+      </div>
+    </section>
+    <section class="ftco-section contact-section">
+      <div class="container">
+        <div class="row d-flex mb-5 contact-info">
+          <div class="col-md-12 mb-4">
+            <h2 class="h3">Contact Information</h2>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-md-3">
+            <p>
+              <span>Address:</span> 198 West 21th Street, Suite 721 New York NY
+              10016
+            </p>
+          </div>
+          <div class="col-md-3">
+            <p>
+              <span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a>
+            </p>
+          </div>
+          <div class="col-md-3">
+            <p>
+              <span>Email:</span>
+              <a
+                href="/cdn-cgi/l/email-protection#1970777f765960766c6b6a706d7c377a7674"
+                ><span
+                  class="__cf_email__"
+                  data-cfemail="9df4f3fbf2dde4f2e8efeef4e9f8b3fef2f0"
+                  >[email&#160;protected]</span
+                ></a
+              >
+            </p>
+          </div>
+          <div class="col-md-3">
+            <p><span>Website</span> <a href="#">yoursite.com</a></p>
+          </div>
+        </div>
+        <div class="row block-9">
+          <div class="col-lg-6 order-md-last d-flex">
+            <form
+              onSubmit="return validate(event);"
+              class="bg-light p-5 contact-form"
+            >
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="name"
+                  id="name"
+                  maxlength="60"
+                  data-validate
+                  required
+                  placeholder="Your Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                  class="form-control"
+                  type="email"
+                  name="email"
+                  id="email"
+                  maxlength="60"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <!-- <div class="form-group">
+                <label for="phone">Phone</label>
+                <input
+                  class="form-control"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  maxlength="18"
+                  required
+                />
+              </div> -->
+              <div class="form-group">
+                <label for="message">Your message</label>
+                <textarea
+                  class="form-control"
+                  cols="30"
+                  rows="7"
+                  name="message"
+                  id="message"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <input
+                  type="submit"
+                  value="Send Message"
+                  class="btn btn-primary py-3 px-5"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6 d-flex">
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe
+                  width="400"
+                  height="500"
+                  id="gmap_canvas"
+                  src="https://maps.google.com/maps?q=2880%20Broadway,%20New%20York&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0"
+                  scrolling="no"
+                  marginheight="0"
+                  marginwidth="0"
+                ></iframe
+                ><a href="https://putlocker-is.org">putlocker</a><br />
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 500px;
+                    width: 600px;
+                  }</style
+                ><a href="https://www.embedgooglemap.net"
+                  >custom google maps embed</a
+                >
+                <style>
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 500px;
+                    width: 600px;
+                  }
+                </style>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -373,6 +385,7 @@
                     >Memberships</a
                   >
                 </li>
+
                 <li>
                   <a href="counselling.html" class="py-1 d-block"
                     ><span class="ion-ios-arrow-forward mr-3"></span
@@ -477,15 +490,12 @@
     <script>
       eval(mod_pagespeed_luomz1AAqn);
     </script>
-    <script src="js/jquery.timepicker.min.js"></script>
+    <!-- <script src="js/jquery.timepicker.min.js"></script> -->
     <script src="js/scrollax.min.js+google-map.js+main.js.pagespeed.jc.3g3-cEQ1tg.js"></script>
     <script>
       eval(mod_pagespeed_2EXYfoJbmK);
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script>
-      eval(mod_pagespeed_UMYRwGZF2l);
-    </script>
+
     <script>
       eval(mod_pagespeed_t4vJ_Wa_6k);
     </script>
@@ -507,8 +517,15 @@
       defer
       src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194"
       integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
-      data-cf-beacon='{"rayId":"76064eba2a48b8a3","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.10.3","si":100}'
+      data-cf-beacon='{"rayId":"75b98f7948500c01","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2022.8.1","si":100}'
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.js"
+      integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/formy.min.js"></script>
   </body>
 </html>
