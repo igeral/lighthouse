@@ -3,8 +3,7 @@
 @font-face {
   font-family: Icons;
   src: url(./fonts/open-iconic/open-iconic.eot);
-  src: url(./fonts/open-iconic/open-iconic.eot?#iconic-sm)
-      format("embedded-opentype"),
+  src: url(./fonts/open-iconic/open-iconic.eot?#iconic-sm) format("embedded-opentype"),
     url(./fonts/open-iconic/open-iconic.woff) format("woff"),
     url(./fonts/open-iconic/open-iconic.ttf) format("truetype"),
     url(./fonts/open-iconic/open-iconic.otf) format("opentype"),
@@ -70,6 +69,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @-webkit-keyframes bounce {
+
   from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -80,6 +80,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounce {
+
   from,
   20%,
   53%,
@@ -113,6 +114,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @-webkit-keyframes flash {
+
   from,
   to {
     opacity: 1;
@@ -120,6 +122,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes flash {
+
   from,
   50%,
   to {
@@ -213,6 +216,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @-webkit-keyframes shake {
+
   from,
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -221,6 +225,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes shake {
+
   from,
   to {
     -webkit-transform: translate3d(0, 0, 0);
@@ -383,6 +388,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @-webkit-keyframes jello {
+
   from,
   to {
     -webkit-transform: none;
@@ -391,6 +397,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes jello {
+
   from,
   11.1%,
   to {
@@ -435,6 +442,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @-webkit-keyframes bounceIn {
+
   from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -449,6 +457,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceIn {
+
   from,
   20%,
   40%,
@@ -494,6 +503,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @-webkit-keyframes bounceInDown {
+
   from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -507,6 +517,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceInDown {
+
   from,
   60%,
   75%,
@@ -545,6 +556,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @-webkit-keyframes bounceInLeft {
+
   from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -558,6 +570,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceInLeft {
+
   from,
   60%,
   75%,
@@ -596,6 +609,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @-webkit-keyframes bounceInRight {
+
   from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -615,6 +629,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceInRight {
+
   from,
   60%,
   75%,
@@ -653,6 +668,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @-webkit-keyframes bounceInUp {
+
   from,
   to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -672,6 +688,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 @keyframes bounceInUp {
+
   from,
   60%,
   75%,
@@ -1431,19 +1448,15 @@ Copyright (c) 2015 Daniel Eden
   }
 
   40% {
-    -webkit-transform: perspective(400px) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -190deg);
-    transform: perspective(400px) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -190deg);
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
 
   50% {
-    -webkit-transform: perspective(400px) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -170deg);
-    transform: perspective(400px) translate3d(0, 0, 150px)
-      rotate3d(0, 1, 0, -170deg);
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
@@ -3103,7 +3116,7 @@ img.mfp-img {
 }
 
 @media screen and (max-width: 800px) and (orientation: landscape),
-  screen and (max-height: 300px) {
+screen and (max-height: 300px) {
   /**
        * Remove all paddings around the image on small screen
        */
@@ -3439,8 +3452,7 @@ body[data-aos-easing="ease-in-out"] [data-aos] {
 @font-face {
   font-family: "Ionicons";
   src: url("./fonts/ionicons/fonts/ionicons.eot?v=4.0.0-19");
-  src: url("./fonts/ionicons/fonts/ionicons.eot?v=4.0.0-19#iefix")
-      format("embedded-opentype"),
+  src: url("./fonts/ionicons/fonts/ionicons.eot?v=4.0.0-19#iefix") format("embedded-opentype"),
     url("./fonts/ionicons/fonts/ionicons.woff2?v=4.0.0-19") format("woff2"),
     url("./fonts/ionicons/fonts/ionicons.woff?v=4.0.0-19") format("woff"),
     url("./fonts/ionicons/fonts/ionicons.ttf?v=4.0.0-19") format("truetype"),
@@ -3572,7 +3584,7 @@ body[data-aos-easing="ease-in-out"] [data-aos] {
   border-top: 6px solid #ffffff;
 }
 
-.datepicker > div {
+.datepicker>div {
   display: none;
 }
 
@@ -3634,13 +3646,11 @@ body[data-aos-easing="ease-in-out"] [data-aos] {
   background-color: #fde19a;
   background-image: -moz-linear-gradient(top, #fdd49a, #fdf59a);
   background-image: -ms-linear-gradient(top, #fdd49a, #fdf59a);
-  background-image: -webkit-gradient(
-    linear,
-    0 0,
-    0 100%,
-    from(#fdd49a),
-    to(#fdf59a)
-  );
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#fdd49a),
+      to(#fdf59a));
   background-image: -webkit-linear-gradient(top, #fdd49a, #fdf59a);
   background-image: -o-linear-gradient(top, #fdd49a, #fdf59a);
   background-image: linear-gradient(top, #fdd49a, #fdf59a);
@@ -3711,13 +3721,11 @@ body[data-aos-easing="ease-in-out"] [data-aos] {
   background-color: #f3d17a;
   background-image: -moz-linear-gradient(top, #f3c17a, #f3e97a);
   background-image: -ms-linear-gradient(top, #f3c17a, #f3e97a);
-  background-image: -webkit-gradient(
-    linear,
-    0 0,
-    0 100%,
-    from(#f3c17a),
-    to(#f3e97a)
-  );
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#f3c17a),
+      to(#f3e97a));
   background-image: -webkit-linear-gradient(top, #f3c17a, #f3e97a);
   background-image: -o-linear-gradient(top, #f3c17a, #f3e97a);
   background-image: linear-gradient(top, #f3c17a, #f3e97a);
@@ -3772,13 +3780,11 @@ body[data-aos-easing="ease-in-out"] [data-aos] {
   background-color: #9e9e9e;
   background-image: -moz-linear-gradient(top, #b3b3b3, #808080);
   background-image: -ms-linear-gradient(top, #b3b3b3, #808080);
-  background-image: -webkit-gradient(
-    linear,
-    0 0,
-    0 100%,
-    from(#b3b3b3),
-    to(#808080)
-  );
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#b3b3b3),
+      to(#808080));
   background-image: -webkit-linear-gradient(top, #b3b3b3, #808080);
   background-image: -o-linear-gradient(top, #b3b3b3, #808080);
   background-image: linear-gradient(top, #b3b3b3, #808080);
@@ -3832,13 +3838,11 @@ body[data-aos-easing="ease-in-out"] [data-aos] {
   background-color: #006dcc;
   background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
   background-image: -ms-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -webkit-gradient(
-    linear,
-    0 0,
-    0 100%,
-    from(#0088cc),
-    to(#0044cc)
-  );
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#0088cc),
+      to(#0044cc));
   background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
   background-image: -o-linear-gradient(top, #0088cc, #0044cc);
   background-image: linear-gradient(top, #0088cc, #0044cc);
@@ -3916,13 +3920,11 @@ body[data-aos-easing="ease-in-out"] [data-aos] {
   background-color: #006dcc;
   background-image: -moz-linear-gradient(top, #0088cc, #0044cc);
   background-image: -ms-linear-gradient(top, #0088cc, #0044cc);
-  background-image: -webkit-gradient(
-    linear,
-    0 0,
-    0 100%,
-    from(#0088cc),
-    to(#0044cc)
-  );
+  background-image: -webkit-gradient(linear,
+      0 0,
+      0 100%,
+      from(#0088cc),
+      to(#0044cc));
   background-image: -webkit-linear-gradient(top, #0088cc, #0044cc);
   background-image: -o-linear-gradient(top, #0088cc, #0044cc);
   background-image: linear-gradient(top, #0088cc, #0044cc);
@@ -4075,8 +4077,7 @@ body[data-aos-easing="ease-in-out"] [data-aos] {
 @font-face {
   font-family: "Flaticon";
   src: url("./fonts/flaticon/font/Flaticon.eot");
-  src: url("./fonts/flaticon/font/Flaticon.eot?#iefix")
-      format("embedded-opentype"),
+  src: url("./fonts/flaticon/font/Flaticon.eot?#iefix") format("embedded-opentype"),
     url("./fonts/flaticon/font/Flaticon.woff") format("woff"),
     url("./fonts/flaticon/font/Flaticon.ttf") format("truetype"),
     url("./fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
@@ -4134,8 +4135,7 @@ body[data-aos-easing="ease-in-out"] [data-aos] {
 @font-face {
   font-family: "icomoon";
   src: url("./fonts/icomoon/icomoon.eot?6tt51o");
-  src: url("./fonts/icomoon/icomoon.eot?6tt51o#iefix")
-      format("embedded-opentype"),
+  src: url("./fonts/icomoon/icomoon.eot?6tt51o#iefix") format("embedded-opentype"),
     url("./fonts/icomoon/icomoon.ttf?6tt51o") format("truetype"),
     url("./fonts/icomoon/icomoon.woff?6tt51o") format("woff"),
     url("./fonts/icomoon/icomoon.svg?6tt51o#icomoon") format("svg");
@@ -4632,7 +4632,7 @@ code {
   word-break: break-word;
 }
 
-a > code {
+a>code {
   color: inherit;
 }
 
@@ -4683,8 +4683,8 @@ a > code {
   margin-left: 0;
 }
 
-.no-gutters > .col,
-.no-gutters > [class*="col-"] {
+.no-gutters>.col,
+.no-gutters>[class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -4859,7 +4859,7 @@ a > code {
   border-bottom: 2px solid #dee2e6;
 }
 
-.table tbody + tbody {
+.table tbody+tbody {
   border-top: 2px solid #dee2e6;
 }
 
@@ -5047,7 +5047,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
+.show>.btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #0062cc;
   border-color: #005cbf;
@@ -5055,7 +5055,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
-.show > .btn-primary.dropdown-toggle:focus {
+.show>.btn-primary.dropdown-toggle:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
@@ -5331,7 +5331,7 @@ fieldset:disabled a.btn {
   padding: 0.5rem 1rem;
 }
 
-.navbar > .container {
+.navbar>.container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5435,8 +5435,8 @@ fieldset:disabled a.btn {
   color: rgba(255, 255, 255, 0.25);
 }
 
-.navbar-dark .navbar-nav .show > .nav-link,
-.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .active>.nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
   color: #fff;
@@ -6203,6 +6203,7 @@ button.bg-dark:focus {
 }
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -6376,7 +6377,7 @@ h5,
   }
 }
 
-.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
   font-size: 15px;
   padding-top: 0.9rem;
   padding-bottom: 0.9rem;
@@ -6387,19 +6388,19 @@ h5,
   opacity: 1 !important;
 }
 
-.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+.ftco-navbar-light .navbar-nav>.nav-item>.nav-link:hover {
   color: #c7b198;
 }
 
 @media (max-width: 991.98px) {
-  .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 0;
   }
 }
 
-.ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
+.ftco-navbar-light .navbar-nav>.nav-item .dropdown-menu {
   border: none;
   background: #fff;
   -webkit-box-shadow: 0px 10px 34px -20px rgba(0, 0, 0, 0.41);
@@ -6407,7 +6408,7 @@ h5,
   box-shadow: 0px 10px 34px -20px rgba(0, 0, 0, 0.41);
 }
 
-.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+.ftco-navbar-light .navbar-nav>.nav-item.active>a {
   color: #c7b198;
 }
 
@@ -6440,14 +6441,14 @@ h5,
 }
 
 @media (max-width: 991.98px) {
-  .ftco-navbar-light.scrolled .nav-item > .nav-link {
+  .ftco-navbar-light.scrolled .nav-item>.nav-link {
     padding-left: 0 !important;
     padding-right: 0 !important;
     padding-bottom: 0 !important;
   }
 }
 
-.ftco-navbar-light.scrolled .nav-item.active > a {
+.ftco-navbar-light.scrolled .nav-item.active>a {
   color: #c7b198 !important;
 }
 
@@ -7812,19 +7813,19 @@ textarea.form-control {
   color: #c7b198;
 }
 
-.blog-entry .meta > div {
+.blog-entry .meta>div {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 0;
   font-size: 14px;
 }
 
-.blog-entry .meta > div a {
+.blog-entry .meta>div a {
   color: gray;
   font-size: 15px;
 }
 
-.blog-entry .meta > div a:hover {
+.blog-entry .meta>div a:hover {
   color: #666666;
 }
 
@@ -7898,13 +7899,13 @@ textarea.form-control {
   color: #c7b198;
 }
 
-.block-21 .text .meta > div {
+.block-21 .text .meta>div {
   display: inline-block;
   font-size: 12px;
   margin-right: 5px;
 }
 
-.block-21 .text .meta > div a {
+.block-21 .text .meta>div a {
   color: gray;
 }
 
@@ -8237,6 +8238,17 @@ textarea.form-control {
 .linkinner {
   color: #999;
 }
+
 .contact-form-google {
   width: 100%;
+}
+
+.facebook-color {
+  background-color: #1877f2 !important;
+  color: #fff;
+}
+
+.youtube-color {
+  background-color: #cd201f !important;
+  color: #fff;
 }
