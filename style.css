@@ -8243,12 +8243,79 @@ textarea.form-control {
   width: 100%;
 }
 
+@media screen and (max-width: 1024px) {
+  .facebook-color {
+    background-color: #1877f2;
+    color: #fff;
+  }
+
+  .youtube-color {
+    background-color: #cd201f;
+    color: #fff;
+  }
+}
+
 .facebook-color {
-  background-color: #1877f2 !important;
-  color: #fff;
+  background-color: transparent;
+  color: #000;
 }
 
 .youtube-color {
-  background-color: #cd201f !important;
+  background-color: transparent;
+  color: #000;
+}
+
+.facebook-color:hover {
+  background-color: #1877f2;
   color: #fff;
+}
+
+.youtube-color:hover {
+  background-color: #cd201f;
+  color: #fff;
+}
+
+
+#directions {
+  position: relative;
+  border: solid 3px black !important;
+  background: transparent;
+  cursor: pointer;
+  width: 9rem;
+  height: 3rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#directions::before,
+#directions::after {
+  content: "";
+  position: absolute;
+  border: inherit;
+  transition: 0.5s ease;
+  height: 44px;
+  width: 84px;
+}
+
+#directions::before {
+  left: -15px;
+  top: -15px;
+  border-width: 3px 0 0 3px;
+}
+
+#directions::after {
+  right: -15px;
+  bottom: -15px;
+  border-width: 0 3px 3px 0;
+}
+
+#directions:hover::before,
+#directions:hover:after {
+  width: calc(100% + 27px);
+  height: calc(100% + 27px);
+}
+
+.direction.d-flex {
+  justify-content: center;
+  margin: 40px 0;
 }
