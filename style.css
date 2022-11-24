@@ -8243,18 +8243,6 @@ textarea.form-control {
   width: 100%;
 }
 
-@media screen and (max-width: 1024px) {
-  .facebook-color {
-    background-color: #1877f2;
-    color: #fff;
-  }
-
-  .youtube-color {
-    background-color: #cd201f;
-    color: #fff;
-  }
-}
-
 .facebook-color {
   background-color: transparent;
   color: #000;
@@ -8274,6 +8262,19 @@ textarea.form-control {
   background-color: #cd201f;
   color: #fff;
 }
+
+@media screen and (max-width: 1024px) {
+  .facebook-color {
+    background-color: #1877f2;
+    color: #fff;
+  }
+
+  .youtube-color {
+    background-color: #cd201f;
+    color: #fff;
+  }
+}
+
 
 
 #directions {
@@ -8318,4 +8319,13 @@ textarea.form-control {
 .direction.d-flex {
   justify-content: center;
   margin: 40px 0;
+}
+
+.gap40 {
+  gap: 40px;
+}
+
+.fa-location-dot {
+  color: #000;
+  font-size: 4rem;
 }
