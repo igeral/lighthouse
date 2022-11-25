@@ -8263,6 +8263,31 @@ textarea.form-control {
   color: #fff;
 }
 
+#directions {
+  position: relative;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  width: 9rem;
+  height: 3rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.direction.d-flex {
+  justify-content: center;
+  margin: 7% 0 3% 0;
+}
+
+.gap40 {
+  gap: 40px;
+}
+
+.fa-location-dot {
+  color: #000;
+  font-size: 4rem;
+}
+
 @media screen and (max-width: 1024px) {
   .facebook-color {
     background-color: #1877f2;
@@ -8275,57 +8300,9 @@ textarea.form-control {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .direction.d-flex {
+    max-width: 80%;
 
-
-#directions {
-  position: relative;
-  border: solid 3px black !important;
-  background: transparent;
-  cursor: pointer;
-  width: 9rem;
-  height: 3rem;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-#directions::before,
-#directions::after {
-  content: "";
-  position: absolute;
-  border: inherit;
-  transition: 0.5s ease;
-  height: 44px;
-  width: 84px;
-}
-
-#directions::before {
-  left: -15px;
-  top: -15px;
-  border-width: 3px 0 0 3px;
-}
-
-#directions::after {
-  right: -15px;
-  bottom: -15px;
-  border-width: 0 3px 3px 0;
-}
-
-#directions:hover::before,
-#directions:hover:after {
-  width: calc(100% + 27px);
-  height: calc(100% + 27px);
-}
-
-.direction.d-flex {
-  justify-content: center;
-  margin: 40px 0;
-}
-
-.gap40 {
-  gap: 40px;
-}
-
-.fa-location-dot {
-  color: #000;
-  font-size: 4rem;
+  }
 }
