@@ -8224,11 +8224,11 @@ textarea.form-control {
 
 /* my style */
 .hero-wrap.img1 {
-  background-image: url(images/index1.webp);
+  background-image: url(images/index2.jpg);
 }
 
 .hero-wrap.img-2 {
-  background-image: url(images/index2.webp);
+  background-image: url(images/index1.jpg);
 }
 
 .row.d-flex.justify-content-center {
